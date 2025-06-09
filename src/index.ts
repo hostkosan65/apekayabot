@@ -1,5 +1,5 @@
-import initBot from "./bot.ts";
-import initWeb from "./web.ts";
+import initBot from "./bot.js";
+import initWeb from "./web.js";
 
 initBot();
 initWeb();
