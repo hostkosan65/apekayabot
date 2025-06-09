@@ -1,17 +1,16 @@
 {
 	"private": true,
 	"type": "module",
-	
 	"name": "aterbot",
 	"version": "0.0.0",
-	
 	"scripts": {
 		"start": "tsx ./src/index.ts",
-		"dev": "node --inspect --loader tsx ./src/index.ts"
+		"dev": "node --inspect --import tsx ./src/index.ts"
 	},
-
 	"dependencies": {
-		"mineflayer": "^4.20.0",
+		"@igorkowalczyk/repl-uptime": "^1.6.0",
+		"minecraft-protocol": "^1.57.0",
+		"mineflayer": "^4.29.0",
 		"tsx": "^4.7.1"
 	}
 }
