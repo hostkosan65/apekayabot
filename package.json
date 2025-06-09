@@ -4,9 +4,9 @@
 	"name": "aterbot",
 	"version": "0.0.0",
 	"scripts": {
-		"start": "node ./dist/index.js",
-		"build": "tsc",
-		"dev": "node --inspect --import tsx ./src/index.ts"
+ 		"build": "tsc",
+  		"start": "node dist/index.js",
+  		"dev": "tsx src/index.ts"
 	},
 	"dependencies": {
 		"@igorkowalczyk/repl-uptime": "^1.6.0",
