@@ -1,5 +1,5 @@
 import Mineflayer from 'mineflayer';
-import { sleep, getRandom } from "./utils";
+import { sleep, getRandom } from "./utils.js";
 import CONFIG from "../config.json" assert {type: 'json'};
 
 let loop: NodeJS.Timeout;
